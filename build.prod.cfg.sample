@@ -21,7 +21,7 @@
 # Level 3 optimization
 # Other available switch -O1, -O2, -O4
 #----------------------------------------------
--O3
+-O4
 
 #----------------------------------------------
 # Move frequent-used variable in register
