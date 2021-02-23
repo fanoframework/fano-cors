@@ -15,7 +15,7 @@ command line tools to help scaffolding web application using Fano Framework.
 
 ```
 $ git clone git@github.com:fanoframework/fano-cors.git --recursive
-$ ./tools/config.setup.sh
+$ cd fano-cors && ./tools/config.setup.sh
 $ ./build.sh
 ```
 Setup virtual host as described in Run with a webserver section below.
