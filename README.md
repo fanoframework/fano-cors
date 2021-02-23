@@ -14,7 +14,7 @@ command line tools to help scaffolding web application using Fano Framework.
 ## TLDR
 
 ```
-$ git clone git@github.com:fanofamework/fano-cors.git --recursive
+$ git clone git@github.com:fanoframework/fano-cors.git --recursive
 $ ./tools/config.setup.sh
 $ ./build.sh
 ```
