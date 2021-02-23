@@ -74,7 +74,7 @@ If `BUILD_TYPE` environment variable is not set, production environment will be 
 
 Setup a virtual host. Please consult documentation of web server you use.
 
-This example project is a SCGI web application. You may want to read [Deployment as SCGI application](https://fanoframework.github.io/deployment/scgi/) for more information on how to setup virtual host to deploy SCGI web application. If Apache returns error *503 Service Unavailable*  make sure that application runs and listens on correct port. This demo application listens on port 4000, while Fano CLI, by default setting up reverse proxy on port 20477.  
+This example project is a SCGI web application. You may want to read [Deployment as SCGI application](https://fanoframework.github.io/deployment/scgi/) for more information on how to setup virtual host to deploy SCGI web application. If Apache returns error *503 Service Unavailable*  make sure that application runs and listens on correct port. This demo application listens on port 4000, while Fano CLI, by default [setting up reverse proxy on port 20477](https://fanoframework.github.io/deployment/scgi/#change-host-and-port).  
 
 ## Deployment
 
