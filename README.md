@@ -18,7 +18,7 @@ $ git clone git@github.com:fanoframework/fano-cors.git --recursive
 $ cd fano-cors && ./tools/config.setup.sh
 $ ./build.sh
 ```
-Setup virtual host as described in Run with a webserver section below.
+Setup virtual host as described in *Run with a webserver* section below.
 
 ## Free Pascal installation
 
