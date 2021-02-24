@@ -16,7 +16,7 @@ var
     appInstance : IWebApplication;
 
 begin
-    writeln('Starting application at 127.0.0.1:4000');
+    writeln('Starting application at 127.0.0.1:20477');
 
     (*!-----------------------------------------------
      * Bootstrap SCGI application
@@ -27,7 +27,7 @@ begin
         TScgiAppServiceProvider.create(
             TServerAppServiceProvider.create(
                 TAppServiceProvider.create(),
-                (TInetSvrFactory.create('127.0.0.1', 4000) as ISocketSvrFactory).build()
+                (TInetSvrFactory.create('127.0.0.1', 20477) as ISocketSvrFactory).build()
             )
         ),
         TAppRoutes.create()
